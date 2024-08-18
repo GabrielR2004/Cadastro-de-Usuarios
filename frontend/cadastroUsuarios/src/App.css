@@ -1,0 +1,52 @@
+body{
+  background-color: #0f0f0f;
+  color: #ffffff;
+  justify-content: center;
+}
+
+/* .usuarios{
+  display: flex;
+  justify-content: center;
+} */
+
+.react{
+  padding: 0px 50px;
+  translate: 30px 20px;
+  animation: logoGirando 3s linear infinite ;
+}
+
+.formulario{
+  padding: 25px;
+}
+
+label{
+  font-size: 20px;
+}
+
+.campos{
+  padding: 15px;
+  background-color: #5fa7c9;
+  border: solid 5px #5d2d7e;
+  border-radius: 25px;
+}
+
+.campoDados{
+  border: solid 5px #5d2d7e;
+  border-radius: 10px;
+}
+
+.cadastrar {
+  background-color: #856cdf;
+  transition: 0.5s;
+}
+
+.cadastrar:hover {
+  background-color: #58498f;
+  transform: scale(1.2);
+}
+
+@keyframes logoGirando{
+  to {
+    transform: rotate(360deg);
+  }
+}
